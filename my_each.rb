@@ -1,6 +1,6 @@
-def my_each(collection)
+def my_each(array)
   x = 0
-  while x < collection.size 
+  while x < array.size 
   yield collection[x]
   x += 1
   end
